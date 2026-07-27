@@ -1,8 +1,34 @@
 aid: imper
 name: Imper
-description: Imper is a company surfaced as a portfolio company of redpoint-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Imper (imper.ai) is a workforce identity-verification and impersonation-defense
+  platform that detects and prevents social-engineering and AI-driven deception
+  attacks across the entire employee lifecycle. Rather than guarding against
+  unauthorized break-ins, Imper confirms that the person on a call, video meeting,
+  candidate interview, help-desk request, or account-recovery flow is the real,
+  authorized employee. Its agentless engine analyzes network, device, and digital
+  identity markers combined with organizational context, and pairs an
+  impersonation-detection layer that spots attacker-controlled environments with
+  an AI-driven contextual verification layer that confirms real employees through
+  dynamic, work-based questioning. Imper integrates natively with ITSM, HR, and
+  ATS systems (Workday, Greenhouse, ServiceNow and more) to enforce identity
+  assurance at high-risk lifecycle events such as hiring, enrollment, help-desk
+  support, and continuous verification. Founded in 2022 and headquartered in Tel
+  Aviv, the company is backed by Redpoint Ventures, Battery Ventures, Maple
+  Capital, Vesey Ventures, and Cerca Partners.
 url: https://raw.githubusercontent.com/api-evangelist/imper/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://imper.ai/wp-content/uploads/2025/11/imper-ai-logo.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Cybersecurity
+- Identity Verification
+- Impersonation Detection
+- Social Engineering Defense
+- Workforce Security
+- Fraud Prevention
+- Help Desk Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/imper-domain-security.yml
 - type: Website
   url: https://imper.ai/
+- type: DeveloperPortal
+  url: https://docs.imper.ai/
+- type: Documentation
+  url: https://docs.imper.ai/
+- type: GettingStarted
+  url: https://docs.imper.ai/platform-overview/getting-started-with-imperai.html
+- type: Blog
+  url: https://imper.ai/blog/
+- type: Support
+  url: https://imper.ai/contact-us/
+- type: Login
+  url: https://app.imper.ai/login
+- type: GitHubOrganization
+  url: https://github.com/imper-ai
+- type: TrustCenter
+  url: https://trust.imper.ai/
+- type: TermsOfService
+  url: https://imper.ai/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://imper.ai/imper-ai-privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
