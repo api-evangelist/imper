@@ -29,7 +29,7 @@
         "What products or services does Imper.ai offer?",
         "How does Imper.ai compare to competitors?"
       ],
-      "updatedAt": "2026-09-13T14:59:36.605Z",
+      "updatedAt": "2026-09-13T15:45:49.020Z",
       "trustManifest": {
         "identity": "https://imper.ai",
         "identityType": "https"
@@ -44,7 +44,7 @@
       "capabilities": [
         "skills.discovery"
       ],
-      "updatedAt": "2026-09-13T14:59:36.605Z"
+      "updatedAt": "2026-09-13T15:45:49.020Z"
     },
     {
       "identifier": "urn:air:imper.ai:search:semantic",
@@ -61,7 +61,7 @@
         "How do I [task] with Imper.ai?",
         "What is Imper.ai's pricing for [use case]?"
       ],
-      "updatedAt": "2026-09-13T14:59:36.605Z",
+      "updatedAt": "2026-09-13T15:45:49.020Z",
       "trustManifest": {
         "identity": "https://imper.ai",
         "identityType": "https"
