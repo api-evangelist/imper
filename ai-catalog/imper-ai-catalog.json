@@ -1,0 +1,71 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Imper.ai",
+    "identifier": "imper.ai",
+    "documentationUrl": "https://imper.ai",
+    "trustManifest": {
+      "identity": "https://imper.ai",
+      "identityType": "https"
+    }
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:imper.ai:openapi:business-knowledge",
+      "displayName": "Imper.ai Business Knowledge API",
+      "type": "application/vnd.oai.openapi+json;version=3.1",
+      "url": "https://api.llm-discovery-api.com/functions/v1/llm-discovery/public/openapi.json?domain=imper.ai",
+      "description": "OpenAPI 3.1 contract for Imper.ai: business profile, products, FAQ, testimonials, categories, semantic search, and Q&A endpoints.",
+      "capabilities": [
+        "business.profile",
+        "products.search",
+        "faq.answer",
+        "qa.search",
+        "testimonials.list",
+        "categories.list"
+      ],
+      "representativeQueries": [
+        "What does Imper.ai do?",
+        "What products or services does Imper.ai offer?",
+        "How does Imper.ai compare to competitors?"
+      ],
+      "updatedAt": "2026-09-13T14:42:11.406Z",
+      "trustManifest": {
+        "identity": "https://imper.ai",
+        "identityType": "https"
+      }
+    },
+    {
+      "identifier": "urn:air:imper.ai:skills:capability-menu",
+      "displayName": "Imper.ai Skills Manifest",
+      "type": "application/json",
+      "url": "https://api.llm-discovery-api.com/functions/v1/llm-discovery/public/skills.json?domain=imper.ai",
+      "description": "Capability hints with openapi_ref pointers so agents can map skills to concrete API calls.",
+      "capabilities": [
+        "skills.discovery"
+      ],
+      "updatedAt": "2026-09-13T14:42:11.406Z"
+    },
+    {
+      "identifier": "urn:air:imper.ai:search:semantic",
+      "displayName": "Imper.ai Semantic Search",
+      "type": "application/json",
+      "url": "https://api.llm-discovery-api.com/functions/v1/llm-discovery/public/search?domain=imper.ai",
+      "description": "Semantic search over Imper.ai's indexed content. Pass ?q= or ?query= with a natural-language question; returns ranked passages with source URLs.",
+      "capabilities": [
+        "search.semantic",
+        "qa.search"
+      ],
+      "representativeQueries": [
+        "Does Imper.ai support [feature]?",
+        "How do I [task] with Imper.ai?",
+        "What is Imper.ai's pricing for [use case]?"
+      ],
+      "updatedAt": "2026-09-13T14:42:11.406Z",
+      "trustManifest": {
+        "identity": "https://imper.ai",
+        "identityType": "https"
+      }
+    }
+  ]
+}
